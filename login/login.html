@@ -1,0 +1,23 @@
+
+<div class="container" style="margin-top: 50px;">
+		
+		<form data-ng-submit="login(loginName, password)"> 
+		
+			<div class="row">
+				<label>Login Name:</label>
+				<input type="text" required data-ng-model="loginName">
+			</div>
+			
+			<div class="row">
+				<label>Password: </label>
+				<input type="password" required data-ng-model="password">
+			</div>
+			
+			<button type="submit">Login</button>
+		</form>
+		
+		
+		Response = {{responseData}}
+		
+
+</div>
